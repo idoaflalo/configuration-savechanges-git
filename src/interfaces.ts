@@ -5,5 +5,6 @@ export interface File {
 
 export interface SaveChangesResult {
   isError: boolean;
-  conflicts?: any;
+  errorDetails?: string;
+  conflictedFiles?: File[];
 }
