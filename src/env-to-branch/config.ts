@@ -1,3 +1,3 @@
-export const config: { [key: string]: string } = {
+export const config: Record<string, string> = {
   production: "master",
 };
